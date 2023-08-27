@@ -5,9 +5,9 @@ A simple app to create a JWT token.
 import os
 import logging
 import datetime
-import functools
+import functools    
 import jwt
-
+# arn:aws:iam::515733102419:role/UdacityFlaskDeployCBKubectlRole
 # pylint: disable=import-error
 from flask import Flask, jsonify, request, abort
 
